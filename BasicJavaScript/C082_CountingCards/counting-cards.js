@@ -51,11 +51,50 @@ function cc(card) {
     // Only change code above this line
 }
 
+// *First Test
 console.log(cc(2));
 console.log(cc(3));
-console.log(cc(7));
-console.log(cc("K"));
-console.log(cc("A"));
+console.log(cc(4));
+console.log(cc(5));
+console.log(cc(6));
+
+// *Second Test
+// console.log(cc(7));
+// console.log(cc(8));
+// console.log(cc(9));
+
+// *Third Test
+// console.log(cc(10));
+// console.log(cc("J"));
+// console.log(cc("Q"));
+// console.log(cc("K"));
+// console.log(cc("A"));
+
+// *Fourth Test
+// console.log(cc(3));
+// console.log(cc(7));
+// console.log(cc("Q"));
+// console.log(cc(8));
+// console.log(cc("A"));
+
+// *Fifth Test
+// console.log(cc(2));
+// console.log(cc("J"));
+// console.log(cc(9));
+// console.log(cc(2));
+// console.log(cc(7));
+
+// *Sixth Test
+// console.log(cc(2));
+// console.log(cc(2));
+// console.log(cc(10));
+
+// *Seventh Test
+// console.log(cc(3));
+// console.log(cc(2));
+// console.log(cc("A"));
+// console.log(cc(10));
+// console.log(cc("K"));
 
 /*
     ! Cards Sequence 2, 3, 4, 5, 6 should return the string 5 Bet
