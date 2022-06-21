@@ -37,10 +37,7 @@ const recordCollection = {
 function updateRecords(records, id, prop, value) {
     if (prop !== "tracks" && value !== "") {
         records[id][prop] = value;
-    } else if (
-        prop === "tracks" &&
-        records[id].hasOwnProperty("tracks") === false
-    ) {
+    } else if (prop === "tracks" && records[id].hasOwnProperty("tracks") === false) {
         records[id][prop] = [value];
     } else if (prop === "tracks" && value !== "") {
         records[id][prop].push(value);
